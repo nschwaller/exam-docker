@@ -208,3 +208,6 @@ Thanks to [JetBrains](https://www.jetbrains.com/) for sponsoring [Licenses for O
   
 <!-- Push imaget  -->
 - docker push your_dockerhub_username/geek-life:latest
+
+
+golang 1.14 mis car c'est un projet en go 1.14
