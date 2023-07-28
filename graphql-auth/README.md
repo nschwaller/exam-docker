@@ -662,3 +662,17 @@ datasource db {
 - Create issues and ask questions on [GitHub](https://github.com/prisma/prisma/)
 - Watch our biweekly "What's new in Prisma" livestreams on [Youtube](https://www.youtube.com/channel/UCptAHlN1gdwD89tFM3ENb6w)
 
+## Commande utiliser lors du projet 
+
+<!-- Build dockerfile -->
+- docker build -t exam_docker:dev -f DockerfileDev .
+
+<!-- lancer le docker compose -->
+- docker-compose -f compose.yml up    
+  
+<!-- supprimer le docker compose et c'est enfant -->
+- docker-compose -f compose.yml down --remove-orphans
+  
+<!-- lance rle container -->
+- docker run -p 3000:3000 exam_docker:dev
+
