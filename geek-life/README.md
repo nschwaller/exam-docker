@@ -199,3 +199,12 @@ Thanks to [JetBrains](https://www.jetbrains.com/) for sponsoring [Licenses for O
 2. Using [monakai](https://github.com/sickill/vim-monokai) color scheme for markdown syntax
 ---
 > "This is the Book about which there is no doubt, a guidance for those conscious of Allah" - [Al-Quran](http://quran.com)
+
+
+## Commande utiliser
+
+<!-- image docjer -->
+- docker build -t chiyu/geek-life:latest .
+  
+<!-- Push imaget  -->
+- docker push your_dockerhub_username/geek-life:latest
